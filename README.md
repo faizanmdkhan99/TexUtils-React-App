@@ -1,6 +1,3 @@
-# This is a Text Analyzer Web application which is created using React JS. We can perform different text utility operations like Lowercase to Upper Case, Uppercase to Lowercase, extracting email and more.
-
-
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
