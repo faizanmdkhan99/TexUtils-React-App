@@ -36,3 +36,38 @@
     transform: rotate(360deg);
   }
 }
+
+.smaller-margin{
+  width:50%;
+  margin-left: 250px;
+  align-content: center;
+  margin-top: 30px;
+  padding: 0px 20px;
+}
+
+textarea{
+  resize: none;
+}
+.margin-top{
+  margin:20px 0px;
+}
+
+.navDarkStyle{
+  background-color: black;
+  color: white;
+}
+
+.navLightStyle{
+  background-color: white;
+  color: black;
+}
+
+.dark{
+  background-color: black;
+  color: white;
+}
+
+.light{
+  background-color: white;
+  color: black;
+}
