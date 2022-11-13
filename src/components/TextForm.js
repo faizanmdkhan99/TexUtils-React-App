@@ -39,6 +39,9 @@ const speak = () => {
   window.speechSynthesis.speak(msg);
 }
 
+const copy=()=>{
+  navigator.clipboard.writeText(text);
+}
 
     return ( 
     <div  className="smaller-margin" style={{color:props.mode==='light'?'black':'white'}}>
@@ -52,6 +55,7 @@ const speak = () => {
     <Button style={{marginTop:'10px', marginLeft:'5px'}} variant={props.mode==='light'?'primary':'dark'} onClick={emailExtract}>Extract email</Button>{' '}
     <Button style={{marginTop:'10px', marginLeft:'5px'}} variant={props.mode==='light'?'primary':'dark'} onClick={invertCase}>Invert Case</Button>{' '}
     <Button style={{marginTop:'10px', marginLeft:'5px'}} variant={props.mode==='light'?'primary':'dark'} onClick={speak}>Speech</Button>{' '}
+    <Button style={{marginTop:'10px', marginLeft:'5px'}} variant={props.mode==='light'?'primary':'dark'} onClick={copy}>Copy</Button>{' '}
 
   </Form>
   <div className='margin-top'>
