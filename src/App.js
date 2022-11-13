@@ -43,7 +43,7 @@ const toggleMode=()=>{
           {/* Use 'exact path' because React does Partial path matching and it will think '/users/me' is same as '/users'  */}
         <Routes>                                                                 
             <Route exact path ="/about" element={<About mode={mode}/>}/>   
-            <Route exact path ="/" element={<TextForm showAlert ={showAlert} heading="Enter your text here for analysis " mode={mode} />}/> 
+            <Route exact path ="/" element={<TextForm showAlert ={showAlert} heading="Enter your text for analysis " mode={mode} />}/> 
          </Routes>
         
       
